@@ -24,10 +24,9 @@ defmodule GooglePubsubGrpc.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:cowboy, "~> 2.7.0"},
       {:goth, "~> 1.2.0"},
-      {:hackney, "~> 1.6"},
-      {:cowlib, "~> 2.9.0", override: true},
-      {:grpc, github: "elixir-grpc/grpc", override: true}
+      {:grpc, github: "elixir-grpc/grpc"}
     ]
   end
 end
