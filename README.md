@@ -145,4 +145,4 @@ request = %Google.Pubsub.V1.AcknowledgeRequest{
   ack_ids: Enum.map(messages, fn m -> m.ack_id end)
 }
 {:ok, response} = channel |> Google.Pubsub.V1.Subscriber.Stub.acknowledge(request)
-``
+'``
