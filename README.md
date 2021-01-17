@@ -14,7 +14,6 @@ def deps do
     {:goth, "~> 1.2.0"},
     {:cowlib, "~> 2.9.0", override: true},
     {:google_protos, "~> 0.1.0"},
-    {:grpc, github: "elixir-grpc/grpc", override: true},
     {:google_pubsub_grpc, "~> 0.2.0-beta.1"}
   ]
 end
