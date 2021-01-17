@@ -41,7 +41,8 @@ defmodule GooglePubsubGrpc.MixProject do
     [
       {:cowboy, "~> 2.7.0"},
       {:goth, "~> 1.2.0"},
-      {:grpc, "~> 0.5.0-beta.1"}
+      {:grpc, "~> 0.5.0-beta.1"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 end
